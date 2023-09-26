@@ -1,3 +1,7 @@
+
+
+## 0.0.1 (2023-09-26)
+
 ## 0.0.0 (2023-09-26)
 
 * chore: add config pre-commit ([8b41c3b](https://github.com/rubenperegrina/basic-calculator/commit/8b41c3b))
@@ -17,6 +21,3 @@
 * initial commit ([e9ff334](https://github.com/rubenperegrina/basic-calculator/commit/e9ff334))
 * Modify pre-commit ([644d914](https://github.com/rubenperegrina/basic-calculator/commit/644d914))
 * Uninstall commitlint ([0be85da](https://github.com/rubenperegrina/basic-calculator/commit/0be85da))
-
-
-
