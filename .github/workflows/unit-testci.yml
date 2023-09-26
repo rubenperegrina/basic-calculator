@@ -1,0 +1,16 @@
+name: Unit test CI
+on: push
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone
+        uses: actions/checkout@v3
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: npm install
+        run: npm i
+      - name: run unit tests
+        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
