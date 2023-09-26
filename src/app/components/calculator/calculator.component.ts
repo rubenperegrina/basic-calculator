@@ -2,10 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'bc-root',
+  selector: 'bc-calculator',
   standalone: true,
   imports: [CommonModule],
-  template: ``
+  templateUrl: './calculator.component.html',
+  styleUrls: ['./calculator.component.scss']
 })
-export class AppComponent {
+export class CalculatorComponent {
+
 }
