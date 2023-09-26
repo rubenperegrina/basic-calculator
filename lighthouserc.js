@@ -7,9 +7,9 @@ module.exports = {
       },
       assert: {
         assertions: {
-          "categories:performance": ["error", { minScore: 0.25 }],
-          "categories:accessibility": ["error", { minScore: 0.25 }],
-          "categories:best-practices": ["error", { minScore: 0.25 }],
+          "categories:performance": ["error", { minScore: 0.75 }],
+          "categories:accessibility": ["error", { minScore: 0.50 }],
+          "categories:best-practices": ["error", { minScore: 0.75 }],
           "categories:seo": "off",
           "categories:pwa": "off",
         },
