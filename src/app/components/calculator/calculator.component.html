@@ -1,1 +1,28 @@
-<p>calculator works!</p>
+<div class="calculator-contain">
+    <div class="calculator">
+      <div class="screen-calculator-contain">
+        <input type="text" placeholder="0" [value]="valueInput" readonly />
+      </div>
+      <div class="buttons-calculator-contain">
+        <div class="buttonsUp-contain">
+          <button
+            *ngFor="let btnUpText of btnUp"
+            [ngClass]="getButtonClass(btnUpText)"
+            (click)="onButtonClick(btnUpText)"
+          >
+            {{ btnUpText }}
+          </button>
+        </div>
+        <div class="buttons-contain">
+          <button
+            *ngFor="let btnText of btn"
+            [ngClass]="getButtonClass(btnText)"
+            (click)="onButtonClick(btnText)"
+          >
+            {{ btnText }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
