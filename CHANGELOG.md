@@ -1,5 +1,15 @@
 
 
+## [0.1.0](https://github.com/rubenperegrina/basic-calculator/compare/0.0.1...0.1.0) (2023-09-26)
+
+
+### Features
+
+* add [@app](https://github.com/app) path ([88aea3a](https://github.com/rubenperegrina/basic-calculator/commit/88aea3aa266e6033a205cb8d768cf7fb97e91b34))
+* add calculator action enum ([3b78b41](https://github.com/rubenperegrina/basic-calculator/commit/3b78b41df0d27d8e289b4dc3366e7db65fa326e4))
+* add calculator component ([c85dae5](https://github.com/rubenperegrina/basic-calculator/commit/c85dae5ccdbf71dd9843ddd2d2ec5c74ca4879f8))
+* create calculator ([51b314c](https://github.com/rubenperegrina/basic-calculator/commit/51b314c0e46ab201b44bf39ccf95417bda34bf5f))
+
 ## 0.0.1 (2023-09-26)
 
 ## 0.0.0 (2023-09-26)
