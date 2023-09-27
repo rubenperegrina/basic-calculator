@@ -1,5 +1,7 @@
 
 
+## [1.0.1](https://github.com/rubenperegrina/basic-calculator/compare/v1.0.0...v1.0.1) (2023-09-27)
+
 ## [0.1.0](https://github.com/rubenperegrina/basic-calculator/compare/0.0.1...0.1.0) (2023-09-26)
 
 
