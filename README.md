@@ -1,27 +1,45 @@
-# BasicCalculator
+# Basic calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+<p align="center">
+  <img src="./public/images/basic-calculator.png" alt="basic calculator">
+  <br/><br/>
+</p>
 
-## Development server
+Basic calculator project made in Angular 16.2.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- On-screen display of operations.
+- Addition, subtraction, multiplication and division functionalities.
+- Delete all or delete only the last digit functionality.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Download the source code of the project
+2. Install the dependencies with `npm install`.
+3. Start the development server with `ng serve`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Use
 
-## Running unit tests
+Access the application through your browser at `http://localhost:4200`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Deployment
 
-## Running end-to-end tests
+The project is deployed on Vercel at the following URL: [https://basic-calculator-sigma.vercel.app/](https://basic-calculator-sigma.vercel.app/).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project features
 
-## Further help
+The project has the following features to ensure best practice and proper operation:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Application optimised with Esbuild and standalone components.
+2. Eslint and Prettier set up.
+3. Husky configured to pre-commit and commit-msg.
+4. Each time a commit is made, `ng lint --fix` will be automatically executed.
+5. Each time a commit is made, the message will be checked for compliance with the commitlint conventions: feat, fix, docs, refactor, style, chore.
+6. Github actions configured for unit-test and lhci, every time a push is made the unit and lighthouse tests will be executed, making the push invalid if it does not meet the indicated standards.
+7. Changelog and release-it configured for version control of the application, which can be reflected in Github tags and CHANGELOG.md.
+
+## Test coverage
+A report can be run with `npm run coverage`
+- Functions    : 87.5% ( 7/8 )
+- Lines        : 93.75% ( 30/32 )
